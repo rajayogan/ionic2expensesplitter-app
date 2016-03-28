@@ -9,7 +9,7 @@ new WebpackDevServer(webpack(config), {
     publicPath: config.output.path,
     contentBase: "www"
     
-  }).listen(process.env.PORT, function (err, result) {
+  }).listen(process.env.PORT || 5000, function (err, result) {
     if (err) { console.log(err) }
     console.log('Listening at localhost:3000');
   });

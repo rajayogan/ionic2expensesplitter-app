@@ -40,6 +40,10 @@
     "ionic-gulp-webpack-build": "^1.0.0",
     "strip-sourcemap-loader": "0.0.1"
   },
+  "scripts": {
+      "postinstall": "webpack --config ./webpack.config.js --progress --colors",
+      "start": "node server.js"  
+  },
   "name": "fullapp",
   "description": "fullapp: An Ionic project",
   "cordovaPlugins": [
