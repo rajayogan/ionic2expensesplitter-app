@@ -1,0 +1,39 @@
+<ion-navbar favorite *navbar>
+  <ion-title>
+    Home
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="home">
+<!--<div class="flex-container">-->
+<div class = "center">
+<ion-card>
+<!--   <img src="https://unsplash.it/200/200/?random">-->
+   <img src="http://lorempixel.com/200/100/food">
+    <ion-card-content>
+        <ion-card-title>
+            Login
+        </ion-card-title>
+       
+    <ion-input type="text" [(ngModel)]="usercreds.name" placeholder="Username"></ion-input>
+      
+    <ion-input type="password" [(ngModel)]="usercreds.password" placeholder="Password"></ion-input>
+
+        <ion-item>
+        <button primary clear item-right (click)="login(usercreds)">
+      <ion-icon name="key"></ion-icon>
+      <div>Login</div>
+    </button>
+     <button primary clear item-left (click)="signup()">
+      <ion-icon name="clipboard"></ion-icon>
+      <div>Signup</div>
+    </button>
+    
+  </ion-item>
+    </ion-card-content>
+</ion-card>
+ 
+
+ </div>
+ 
+</ion-content>
