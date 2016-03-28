@@ -1,7 +1,7 @@
 {
-  "name": "Ionic Starter",
-  "description": "A simple Ionic app for Heroku",
-  "repository": "https://github.com/driftyco/ionic-heroku-button",
+  "name": "Expense splitter",
+  "description": "Expense splitter using Ionic 2",
+  "repository": "https://github.com/rajayogan/ionic2expensespitter-app.git",
   "logo": "http://ionicframework.com/img/ionic-logo-blog.png",
   "keywords": ["ionic", "static"]
 }
