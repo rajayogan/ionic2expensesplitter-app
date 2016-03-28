@@ -1,7 +1,0 @@
-{
-  "name": "Expense splitter",
-  "description": "Expense splitter using Ionic 2",
-  "repository": "https://github.com/rajayogan/ionic2expensespitter-app.git",
-  "logo": "http://ionicframework.com/img/ionic-logo-blog.png",
-  "keywords": ["ionic", "static"]
-}
